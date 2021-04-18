@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19 status</title>
+    <script src="covidAPI.js"></script>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-repeat:no-repeat;
+            background-position:relative;
+            background-size: cover;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>COVID REPORT</h1>
+    Enter the country : <input type="text" id="country" ><br><br>
+    <button id="submit" onclick="covidStatus()">Go</button><br><br>
+    <div id="table">
+    </div>
+</center>
+</body>
+</html>

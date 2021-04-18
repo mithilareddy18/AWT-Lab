@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GITHUB Repositories</title>
+        <script src="gitAPI.js"></script>
+        <style>
+            
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           
+            background-size: cover;
+        }
+        table{
+            border-collapse: collapse;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>GITHUB REPOSITORIES</h1>
+            
+            Enter the username: <input type="text" id="uname"><br><br>
+            <button type="submit" onclick="fetch()" id="submit">Go</button><br><br>
+        
+            <div id="table"></div>
+        </center>
+    </body>
+</html>
